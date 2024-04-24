@@ -1053,6 +1053,16 @@
 <skos:Concept rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#WeightUnit">
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Unit"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gram"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilogram"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Milligram"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundMass"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tonne"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#gram"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#kilogram"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#ounce"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#pound"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#ton"/>
 	<skos:prefLabel xml:lang="en">Weight Unit</skos:prefLabel>
 </skos:Concept>
 <skos:Concept rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#gram">
@@ -1083,21 +1093,57 @@
 <skos:Concept rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#LenghtUnit">
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Unit"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centimetre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decimetre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilometre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Metre"/>
 	<skos:prefLabel xml:lang="en">Length Unit</skos:prefLabel>
 </skos:Concept>
 <skos:Concept rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VolumeUnit">
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Unit"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Cup"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centilitre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decilitre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gallon"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Litre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Millilitre"/>
 	<skos:prefLabel xml:lang="en">VolumeUnit</skos:prefLabel>
 </skos:Concept>
 <skos:Concept rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#ContainerUnit">
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Unit"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Bag"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Basket"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#BeerCrate"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Bottle"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Box"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Bucket"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Can"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Carton"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Cask"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Drum"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Jar"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Keg"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Net"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Packet"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Pallet"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Pot"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Pouch"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Punnet"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Tin"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Tub"/>
+	<skos:narrower rdf:resource="http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Tube"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Crate"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Package"/>
 	<skos:prefLabel xml:lang="en">Container Unit</skos:prefLabel>
 </skos:Concept>
 <skos:Concept rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#temperatureUnit">
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Unit"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Celsius"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Fahrenheit"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kelvin"/>
 	<skos:prefLabel xml:lang="en">Temperature unit</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Unité de température</skos:prefLabel>
 </skos:Concept>

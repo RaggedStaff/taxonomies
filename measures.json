@@ -1087,6 +1087,53 @@
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Crate"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Package"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Bag"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Bucket"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Basket"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Bottle"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Box"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#BeerCrate"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Cask"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Carton"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Can"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Drum"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Jar"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Keg"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Net"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Packet"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Punnet"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Pouch"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Pot"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Pallet"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Tub"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Tube"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Tin"
+    } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Container Unit"
@@ -1666,6 +1713,15 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centimetre"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decimetre"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilometre"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Metre"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2708,6 +2764,19 @@
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centilitre"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decilitre"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gallon"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Litre"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Millilitre"
+    }, {
+      "@id" : "http://static.datafoodconsortium.org/data/ProductGlossary_Measure.rdf#Cup"
+    } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "VolumeUnit"
@@ -2736,6 +2805,27 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gram"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilogram"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Milligram"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundMass"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tonne"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#gram"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#kilogram"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#ton"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#pound"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#ounce"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2833,6 +2923,13 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Celsius"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Fahrenheit"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kelvin"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
