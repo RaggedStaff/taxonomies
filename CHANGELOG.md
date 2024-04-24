@@ -19,6 +19,16 @@ in ProductTypes.rdf & ProductTypes.json:
  - `ferment` as narrower of `savory-groceries`
  - `dried_goods` as narrower of `local-grocery-store`
 
+in measures.rdf & measures.json:
+ - `WeightUnit` as broader (with corresponding `SKOS:narrower`) of `Gram/gram, Kilogram/kilogram, milligram, Pound/pound, Ounce, Ton, tonne`
+ - `LengthUnit` as broader (with corresponding `SKOS:narrower`) of `centimetre, decimetre, metre, kilometre`
+ - `VolumeUnit` as broader (with corresponding `SKOS:narrower`) of `centilitre, cup, decilitre, gallon, litre, millilitre`
+ - `ContainerUnit` as broader (with corresponding `SKOS:narrower`) of `bag, basket, beer crate, bottle, box, bucket, can, carton, cask, crate, drum, jar, keg, net, package, packet, pallet, pot, pouch, punnet, tin, tub, tube`
+ - `Celsius` as narrower of `TemperatureUnit`
+ - `Fahrenheit` as narrower of `TemperatureUnit`
+ - `Kelvin` as narrower of `TemperatureUnit`
+
+
 ### Fixed
 
 in ProductTypes.rdf & ProductTypes.json:
@@ -33,7 +43,7 @@ in vocabulary.rdf & vocabulary.json:
 
 ### Added
 
-- transformationType in Vocabulary with subconcept : accept, combine, consume, dropoff, lower, modify, move, pickup, produce, raise, separate, use 
+- transformationType in Vocabulary with subconcept : accept, combine, consume, dropoff, lower, modify, move, pickup, produce, raise, separate, use
 
 ## [1.1.0] - 2023-12-22
 
